@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import svg from './logo.svg';
+import svg from '../../../public/logo.svg';
 import Link from 'next/link'
 
 

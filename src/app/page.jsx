@@ -8,7 +8,7 @@ export default function Home() {
       <div className="min-h-screen min-w-screen bg-gradient-to-b from-transparent to-white">
         <Header />
 
-        <Image className="" src={bg} alt="logo"/>
+        <Image className="" src={bg} alt="landing"/>
 
 
       </div>
