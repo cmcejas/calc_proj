@@ -4,7 +4,7 @@ import bg from '../../public/bg_final.svg';
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-gradient-to-b from-transparent to-white">
+    <main className="relative min-h-screen">
       <Header />
       <div className="lg:hidden">
         <Image
