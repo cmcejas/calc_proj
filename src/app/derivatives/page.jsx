@@ -21,6 +21,7 @@ const Derivatives = () => {
         <div className="video-wrapper p-2 lg:px-20">
           <div className="video-responsive">
             <iframe
+              className="rounded-md"
               width="560" 
               height="315"
               alt="video"
