@@ -17,7 +17,6 @@ export const metadata = {
   openGraph:
   {
     images: 'IMG_5737.png',
-  ｝
 };
 
 export default function RootLayout({ children }) {
