@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.video-responsive {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .video-responsive {
+        padding-top: 75%;
+    }
+}
+
+.video-wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
