@@ -14,12 +14,13 @@ const Derivatives = () => {
       </div>
       <h1 className="md:mt-12 px-2 md:px-20 p-4 text-5xl md:text-6xl">As a Concept</h1>
       <div className="lg:flex p-2">
-        <Image className="md:px-20 rounded-md" src={tan}></Image>
+        <Image className="md:px-20 rounded-md" alt="tan_graph" src={tan}></Image>
         <div className="video-wrapper p-2 lg:px-20">
           <div className="video-responsive">
             <iframe
               width="560" 
-              height="315" 
+              height="315"
+              alt="video"
               src="https://www.youtube.com/embed/N2PpRnFqnqY?si=ml9F0W96bXD3HcNm" 
               title="YouTube video player" 
               frameborder="0"
