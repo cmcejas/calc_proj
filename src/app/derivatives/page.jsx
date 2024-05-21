@@ -13,9 +13,9 @@ const Derivatives = () => {
         <p className="md:pt-7 px-2 text-xl">The derivative of a function describes the function's instantaneous rate of change at a certain point. Another common interpretation is that the derivative gives us the slope of the line tangent to the function's graph at that point.</p>
       </div>
       <h1 className="md:mt-12 px-2 md:px-20 p-4 text-5xl md:text-6xl">As a Concept</h1>
-      <div className="lg:flex">
-        <Image className="px-2 md:px-20 rounded-md" src={tan}></Image>
-        <div className='video-wrapper'>
+      <div className="lg:flex p-2">
+        <Image className="md:px-20 rounded-md" src={tan}></Image>
+        <div className="video-wrapper p-2 lg:px-20">
           <div className="video-responsive">
             <iframe
               width="560" 
