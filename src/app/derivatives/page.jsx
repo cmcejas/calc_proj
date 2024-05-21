@@ -10,7 +10,7 @@ const Derivatives = () => {
       <Header />
       <div className='md:px-20 px-2 md:flex'>
         <h1 className="p-4 text-5xl md:text-6xl">Derivative: </h1>
-        <p className="md:pt-7 px-2 text-xl">The derivative of a function describes the function &apos;'s instantaneous rate of change at a certain point. Another common interpretation is that the derivative gives us the slope of the line tangent to the function&apos;'s graph at that point.</p>
+        <p className="md:pt-7 px-2 text-xl">The derivative of a function describes the function &apos;'s instantaneous rate of change at a certain point. Another common interpretation is that the derivative gives us the slope of the line tangent to the function &apos;'s graph at that point.</p>
       </div>
       <h1 className="md:mt-12 px-2 md:px-20 p-4 text-5xl md:text-6xl">As a Concept</h1>
       <div className="lg:flex p-2">
