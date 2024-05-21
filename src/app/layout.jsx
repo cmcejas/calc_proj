@@ -14,7 +14,7 @@ export const metadata = {
   title: "Ultimate Calc Review",
   description: "by Carlos and Joey",
   openGraph: {
-    images: "IMG_5737.png",
+    images: "meta.png",
   },
 };
 
