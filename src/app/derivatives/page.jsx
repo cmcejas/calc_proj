@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Header from '../components/header';
 import tan from '../../../public/tan.svg';
+import power_rule from '../../../public/power_rule.svg';
 
 
 const Derivatives = () => {
@@ -33,6 +34,14 @@ const Derivatives = () => {
             </iframe>
           </div>
         </div>
+      </div>
+      <div className="text-xs p-4 px-2 md:px-20">
+        <div className="bg-black rounded-3xl pt-0.01 px-2">_</div>
+      </div>
+      <div className="px-2 md:px-20 p-4">
+        <h1 className="md:mt-6 text-4xl md:text-5xl">How to find a Derivative</h1>
+        <p className="mt-2 text-2xl">Power Rule</p>
+        <Image className='' src={power_rule}></Image>
       </div>
     </div>
   );
