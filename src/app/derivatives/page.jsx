@@ -8,7 +8,10 @@ import chain_rule from '../../../public/chain_rule.svg';
 import chain_rule_ex from '../../../public/chain_rule_ex.svg';
 import common_deriv from '../../../public/common_deriv.svg';
 import chain_ex_func from '../../../public/chain_ex_func.svg';
-
+import product_rule from '../../../public/product_rule.svg';
+import product_rule_ex from '../../../public/product_rule_ex.svg';
+import quotient_rule from '../../../public/quotient_rule.svg';
+import quotient_rule_ex from '../../../public/quotient_rule_ex.svg';
 
 
 const Derivatives = () => {
@@ -47,23 +50,40 @@ const Derivatives = () => {
       </div>
       <div className="px-2 md:px-20 p-4">
         <h1 className="md:mt-6 text-4xl md:text-5xl">How to find a Derivative</h1>
-        <p className="mt-5 text-2xl">Ones to memorize</p>
+        <p className="mt-5 text-4xl font-medium">Ones to memorize</p>
         <div className=" place-content-center"><Image src={common_deriv} width="1000"></Image></div>
         
-        <p className="mt-2 text-2xl">Power Rule</p>
+        <p className="mt-2 text-4xl font-medium">Power Rule</p>
         <div className="md:flex">
           <Image src={power_rule} width="700"></Image>
           <Image src={power_ex} width="700"></Image>
         </div>
 
         <div>
-          <p className="mt-2 text-2xl">Chain Rule</p>
+          <p className="mt-2 text-4xl font-medium">Chain Rule</p>
           <div className="md:flex">
             <Image src={chain_rule} width="700"></Image>
             <Image src={chain_rule_ex} width="700"></Image>
           </div>
-          <div className="mt-4"><Image src={chain_ex_func} width="600"></Image></div>
+          <div className="mt-4 px-5"><Image src={chain_ex_func} width="600"></Image></div>
         </div>
+
+        <div className="text-xs mt-4 p-4 px-2 md:px-20">
+          <div className="bg-black rounded-3xl pt-0.01 px-2">_</div>
+        </div>
+
+        <p className="mt-5 md:mt-20 text-4xl font-medium">Product Rule</p>
+        <div className="md:flex">
+            <Image src={product_rule} width="700"></Image>
+            <Image src={product_rule_ex} width="700"></Image>
+        </div>
+
+        <p className="mt-5 md:mt-20 text-4xl font-medium">Quotient Rule</p>
+        <div className="md:flex">
+            <Image src={quotient_rule} width="700"></Image>
+            <Image src={quotient_rule_ex} width="700"></Image>
+        </div>
+
       </div>
     </div>
   );
