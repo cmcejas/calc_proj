@@ -3,6 +3,12 @@ import Image from 'next/image';
 import Header from '../components/header';
 import tan from '../../../public/tan.svg';
 import power_rule from '../../../public/power_rule.svg';
+import power_ex from '../../../public/power_ex.svg';
+import chain_rule from '../../../public/chain_rule.svg';
+import chain_rule_ex from '../../../public/chain_rule_ex.svg';
+import common_deriv from '../../../public/common_deriv.svg';
+import chain_ex_func from '../../../public/chain_ex_func.svg';
+
 
 
 const Derivatives = () => {
@@ -41,8 +47,23 @@ const Derivatives = () => {
       </div>
       <div className="px-2 md:px-20 p-4">
         <h1 className="md:mt-6 text-4xl md:text-5xl">How to find a Derivative</h1>
+        <p className="mt-5 text-2xl">Ones to memorize</p>
+        <div className=" place-content-center"><Image src={common_deriv} width="1000"></Image></div>
+        
         <p className="mt-2 text-2xl">Power Rule</p>
-        <Image className='' src={power_rule}></Image>
+        <div className="md:flex">
+          <Image src={power_rule} width="700"></Image>
+          <Image src={power_ex} width="700"></Image>
+        </div>
+
+        <div>
+          <p className="mt-2 text-2xl">Chain Rule</p>
+          <div className="md:flex">
+            <Image src={chain_rule} width="700"></Image>
+            <Image src={chain_rule_ex} width="700"></Image>
+          </div>
+          <div className="mt-4"><Image src={chain_ex_func} width="600"></Image></div>
+        </div>
       </div>
     </div>
   );
