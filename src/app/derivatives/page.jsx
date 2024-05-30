@@ -52,7 +52,7 @@ const Derivatives = () => {
       <div className="px-2 md:px-20 p-4">
         <h1 className="md:mt-6 text-4xl md:text-5xl">How to find a Derivative</h1>
         <p className="mt-5 text-4xl font-medium">Ones to memorize</p>
-        <div className=" place-content-center"><Image src={common_deriv} width="1000"></Image></div>
+        <div className="items-center"><Image src={common_deriv} width="1000"></Image></div>
         
         <p className="mt-2 text-4xl font-medium">Power Rule</p>
         <div className="md:flex">
