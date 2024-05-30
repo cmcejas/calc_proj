@@ -1,0 +1,14 @@
+.desmos-container {
+    position: relative;
+    width: 80%;
+    height: 800px; /* Adjust this to control the visible area */
+    overflow: hidden;
+  }
+  
+  .desmos-iframe {
+    position: absolute;
+    top: 20%; /* Adjust this to control the portion of the graph visible */
+    left: 25%; /* Adjust this to control the portion of the graph visible */
+    width: 120%;
+    height: 70%;
+  }
