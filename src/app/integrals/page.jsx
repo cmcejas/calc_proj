@@ -17,6 +17,9 @@ const Integrals = () => {
   The integral is used to get the area under a graph line // curve. There are multiple ways to get the area, like geometry as seen below, but calculus tells us to take the anti derivative to get the formula for the integral.
 </p>
       </div>
+
+      <h1 className="md:mt-12 px-2 md:px-20 p-4 text-5xl md:text-6xl">As a Concept</h1>
+
       <div className='lg:flex p-1'>
         <Image className="md:px-15 rounded-lg" alt="y=x" src={yxGraph}></Image>
         
