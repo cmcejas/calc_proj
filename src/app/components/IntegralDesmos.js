@@ -2,18 +2,20 @@ import React from "react";
 import './IntegralDesmos.css';
 
 const IntegralDesmos = () => {
-    const graphUrl = "https://www.desmos.com/calculator/z0zsxbmxaj"; //integral visual url
+    const graphUrl = "https://www.desmos.com/calculator/ptlo2svpxx?embed"; //integral visual url
 
     return (
-      <div className="desmos-container">
+      <div className="">
         <iframe
           title="Desmos Graph"
           src={graphUrl}
-          frameBorder="0"
-          width="100%"
-          height="100%"
-          className="desmos-iframe"
+          width="600"
+          height="600"
+          className=" hover:cursor-pointer"
+          href="https://www.desmos.com/calculator/4svj4ee6jp"
         ></iframe>
+
+
       </div>
     );
 };
