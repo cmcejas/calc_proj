@@ -6,7 +6,7 @@ import power_rule from '../../../public/power_rule.svg';
 import power_ex from '../../../public/power_ex.svg';
 import chain_rule from '../../../public/chain_rule.svg';
 import chain_rule_ex from '../../../public/chain_rule_ex.svg';
-import common_deriv from '../../../public/common_deriv.svg';
+import common_deriv from '../../../public/common_deriv.webp';
 import chain_ex_func from '../../../public/chain_ex_func.svg';
 import product_rule from '../../../public/product_rule.svg';
 import product_rule_ex from '../../../public/product_rule_ex.svg';
@@ -52,7 +52,7 @@ const Derivatives = () => {
       <div className="px-2 md:px-20 p-4">
         <h1 className="md:mt-6 text-4xl md:text-5xl">How to find a Derivative</h1>
         <p className="mt-5 text-4xl font-medium">Ones to memorize</p>
-        <div className="items-center"><Image src={common_deriv} width="1000"></Image></div>
+        <div className=""><Image src={common_deriv} width="1000"></Image></div>
         
         <p className="mt-2 text-4xl font-medium">Power Rule</p>
         <div className="md:flex">
