@@ -4,7 +4,6 @@ import Image from 'next/image';
 import yxGraph from '../../../public/yxGraph.svg';
 import AreaTriangle from '../../../public/AreaTriangle.webp';
 import antiDeri from '../../../public/antiDeri.webp';
-import IntegralDesmos from '../components/IntegralDesmos';
 import integral from '../../../public/integral.webp';
 import integral2 from '../../../public/integral2.webp';
 import reimann from '../../../public/reimann_sums.webp';
@@ -48,13 +47,17 @@ const Integrals = () => {
 
       <div className="px-2 md:px-20 p-4">
         <p className="mt-5 text-4xl font-medium">Reimann Sums</p>
-        <p className="mt-2   text-xl">
+        <p className="mt-2 text-xl">
           Reimann sums are a good way to approximate the area under a curve. The more rectangles you use, the more accurate the approximation will be.
         </p>
 
         <div className="text-center">
           <Image src={reimann} width={1400}></Image>
         </div>
+
+        <p className="mt-2 text-xl">
+          Each rectangle's height is determined by a function's value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
+        </p>
 
       </div>
 
