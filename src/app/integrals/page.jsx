@@ -24,9 +24,9 @@ const Integrals = () => {
 
       <div className="flex justify-center">
         <div className="md:gap-20 md:flex px-2 md:px-20 p-4">
-          <Image src={yxGraph} alt="y=x" width={300} height={50} layout="fixed" className="rounded-lg" />
-          <Image className="py-10" src={integral} width={300} height={50} />
-          <Image src={integral2} width={300} height={50} />
+          <Image src={yxGraph} alt="y=x" layout="fixed" className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" />
+          <Image className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral2} />
+          <Image href="https://www.desmos.com/calculator/4svj4ee6jp" className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral} />
         </div>
       </div>
 
