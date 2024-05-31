@@ -31,7 +31,21 @@ const Integrals = () => {
           <Image href="https://www.desmos.com/calculator/4svj4ee6jp" className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral} />
         </div>
       </div>
+      <div className="px-2 md:px-20 p-4">
+        <p className="mt-5 text-4xl font-medium">Reimann Sums</p>
+        <p className="mt-2 text-xl">
+          Reimann sums are a good way to approximate the area under a curve. The more rectangles you use, the more accurate the approximation will be.
+        </p>
 
+        <div className="text-center">
+          <Image src={reimann} width={1400}></Image>
+        </div>
+
+        <p className="mt-2 text-xl">
+          Each rectangle&apos;s height is determined by a function&apos;s value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
+        </p>
+
+      </div>
 
 
       <div className="text-xs p-4 px-2 md:px-20">
@@ -71,19 +85,8 @@ const Integrals = () => {
       </div>
 
       <div className="px-2 md:px-20 p-4">
-        <p className="mt-5 text-4xl font-medium">Reimann Sums</p>
-        <p className="mt-2 text-xl">
-          Reimann sums are a good way to approximate the area under a curve. The more rectangles you use, the more accurate the approximation will be.
-        </p>
-
-        <div className="text-center">
-          <Image src={reimann} width={1400}></Image>
-        </div>
-
-        <p className="mt-2 text-xl">
-          Each rectangle&apos;s height is determined by a function&apos;s value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
-        </p>
-
+        <p className="mt-5 text-4xl ml-5 font-medium">Joey&apos;s Integration by Parts Example</p>
+        <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/DYYauEWue-Y?si=9boYoCwpMmmbLzGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <div className="px-2 md:px-20 p-4" id="ftc">

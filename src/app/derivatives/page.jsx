@@ -85,6 +85,10 @@ const Derivatives = () => {
             <Image src={quotient_rule_ex} width="700"></Image>
         </div>
 
+        <div>
+          
+        </div>
+
       </div>
     </div>
   );
