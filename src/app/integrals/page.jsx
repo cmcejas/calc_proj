@@ -44,6 +44,31 @@ const Integrals = () => {
 
         <div className="text-center">
           <Image width={1200} className="md:px-15 py-2 inline-block align-middle" alt="antiderivs" src={antiDeri}></Image>
+        
+          <div class="container">
+            <iframe
+              class="rounded-lg p-6"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/xaCPDMEkbig?si=wN25ErCYuXEQ19OS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+            <iframe
+              class="rounded-lg p-6"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sdYdnpYn-1o?si=BNDTPilKxd5L7jOJ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
       </div>
 
@@ -64,9 +89,9 @@ const Integrals = () => {
       </div>
 
       <div className="px-2 md:px-20 p-4" id="ftc">
-        <p className="mt-5 text-4xl font-medium">Fundamental Theorem of Calculus</p>
+        <p className="mt-5 text-4xl font-medium">Fundamental Theorem of Calculus / Definite Integrals</p>
         <p className="mt-2 text-xl">
-        The Fundamental Theorem of Calculus is an important concept that ties together differentiation and integration. It states that if you have a continuous function, you can find the area under its curve between two points by looking at the antiderivative of the function. It also states that if you integrate a function and then differentiate the result, you will return to the original function.
+        The Fundamental Theorem of Calculus is an important concept that ties together differentiation and integration. It states that if you have a continuous function, you can find the area under its curve between two points by looking at the antiderivative of the function. It also states that if you integrate a function and then differentiate the result, you will return to the original function. This theorom is responsible for the discovery of the definite integral.
         </p>
         <div className="md:flex md:gap-40 mt-5">
           <Image className="" width={500} src={ftc} />
