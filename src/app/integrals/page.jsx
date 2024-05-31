@@ -7,6 +7,8 @@ import antiDeri from '../../../public/antiDeri.webp';
 import integral from '../../../public/integral.webp';
 import integral2 from '../../../public/integral2.webp';
 import reimann from '../../../public/reimann_sums.webp';
+import ftc from '../../../public/ftc.svg';
+import intSolv from '../../../public/integral_solve.svg';
 
 
 const Integrals = () => {
@@ -16,7 +18,7 @@ const Integrals = () => {
       <div className='md:px-20 px-2 md:flex'>
         <h1 className="p-4 text-5xl md:text-6xl">Integrals: </h1>
         <p className="p-4 text-xl">
-          The integral is used to get the area under a graph line // curve. There are multiple ways to get the area, like geometry as seen below, but calculus tells us to take the anti derivative to get the formula for the integral.
+          The integral is used to get the area under a graph line // curve. There are multiple ways to get the area, like geometry as seen in the first graph, but calculus tells us to take the anti derivative to get the formula for the integral to solve for the other two.
         </p>
       </div>
 
@@ -37,7 +39,7 @@ const Integrals = () => {
       </div>
 
       <div className="px-2 md:px-20 p-4">
-      <h1 className="md:mt-6 text-4xl md:text-5xl">How to find an Integral</h1>
+        <h1 className="md:mt-6 text-4xl md:text-5xl">How to find an Integral</h1>
         <p className="mt-5 text-4xl font-medium">Ones to memorize</p>
 
         <div className="text-center">
@@ -59,6 +61,20 @@ const Integrals = () => {
           Each rectangle&apos;s height is determined by a function&apos;s value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
         </p>
 
+      </div>
+
+      <div className="px-2 md:px-20 p-4" id="ftc">
+        <p className="mt-5 text-4xl font-medium">Fundamental Theorem of Calculus</p>
+        <p className="mt-2 text-xl">
+        The Fundamental Theorem of Calculus is an important concept that ties together differentiation and integration. It states that if you have a continuous function, you can find the area under its curve between two points by looking at the antiderivative of the function. It also states that if you integrate a function and then differentiate the result, you will return to the original function.
+        </p>
+        <div className="md:flex md:gap-40 mt-5">
+          <Image className="" width={500} src={ftc} />
+          <Image className="" width={600} src={intSolv} />
+        </div>
+        <div>
+          
+        </div>
       </div>
 
     </div>
