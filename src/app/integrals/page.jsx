@@ -45,25 +45,23 @@ const Integrals = () => {
         <div className="text-center">
           <Image width={1200} className="md:px-15 py-2 inline-block align-middle" alt="antiderivs" src={antiDeri}></Image>
         
-          <div class="container">
+          <div class="md:flex container">
             <iframe
               class="rounded-lg p-6"
-              width="560"
-              height="315"
+              width="600"
+              height="366"
               src="https://www.youtube.com/embed/xaCPDMEkbig?si=wN25ErCYuXEQ19OS"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen>
             </iframe>
             <iframe
               class="rounded-lg p-6"
-              width="560"
-              height="315"
+              width="600"
+              height="366"
               src="https://www.youtube.com/embed/sdYdnpYn-1o?si=BNDTPilKxd5L7jOJ"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen>
