@@ -56,7 +56,7 @@ const Integrals = () => {
         </div>
 
         <p className="mt-2 text-xl">
-          Each rectangle's height is determined by a function's value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
+          Each rectangle&apos;s height is determined by a function&apos;s value at a chosen sample point within a sub-interval. Adding up the areas of these rectangles provides an approximation of the total area under the curve.
         </p>
 
       </div>
