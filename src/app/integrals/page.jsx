@@ -85,8 +85,11 @@ const Integrals = () => {
       </div>
 
       <div className="px-2 md:px-20 p-4">
-        <p className="mt-5 text-4xl ml-5 font-medium">Joey&apos;s Integration by Parts Example</p>
-        <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/DYYauEWue-Y?si=9boYoCwpMmmbLzGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p className="mt-5 text-4xl ml-5 font-medium">Integration Examples</p>
+        <div className="md:gap-5 md:flex">
+          <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/DYYauEWue-Y?si=9boYoCwpMmmbLzGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/-n0V50SNOjc?si=Qg5fLFz0tPISWXMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
 
       <div className="px-2 md:px-20 p-4" id="ftc">
