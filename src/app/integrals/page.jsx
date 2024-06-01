@@ -26,9 +26,9 @@ const Integrals = () => {
 
       <div className="flex justify-center">
         <div className="md:gap-20 md:flex px-2 md:px-20 p-4">
-          <Image src={yxGraph} alt="y=x" layout="fixed" className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" />
-          <Image className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral2} />
-          <Image href="https://www.desmos.com/calculator/4svj4ee6jp" className="cursor-pointer shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral} />
+          <Image src={yxGraph} alt="y=x" layout="fixed" className="shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" />
+          <Image className="shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral2} />
+          <Image className="shadow-lg hover:transform hover:-translate-y-1 duration-300 h-50 w-60 rounded-xl" src={integral} />
         </div>
       </div>
       <div className="px-2 md:px-20 p-4">
@@ -61,7 +61,7 @@ const Integrals = () => {
         
           <div class="md:flex container">
             <iframe
-              class="rounded-lg p-6"
+              className="rounded-lg rounded-lg p-6"
               width="600"
               height="366"
               src="https://www.youtube.com/embed/xaCPDMEkbig?si=wN25ErCYuXEQ19OS"
@@ -71,7 +71,7 @@ const Integrals = () => {
               allowfullscreen>
             </iframe>
             <iframe
-              class="rounded-lg p-6"
+              className="rounded-lg rounded-lg p-6"
               width="600"
               height="366"
               src="https://www.youtube.com/embed/sdYdnpYn-1o?si=BNDTPilKxd5L7jOJ"
@@ -87,8 +87,8 @@ const Integrals = () => {
       <div className="px-2 md:px-20 p-4">
       <p className="mt-5 text-4xl ml-5 font-medium">Integration Examples</p>
         <div className="md:gap-5 md:flex">
-          <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/DYYauEWue-Y?si=9boYoCwpMmmbLzGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <iframe className="mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/-n0V50SNOjc?si=Qg5fLFz0tPISWXMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className="rounded-lg shadow-2xl mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/DYYauEWue-Y?si=9boYoCwpMmmbLzGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className="rounded-lg shadow-2xl mt-5 ml-5" width="560" height="315" src="https://www.youtube.com/embed/-n0V50SNOjc?si=Qg5fLFz0tPISWXMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
 
