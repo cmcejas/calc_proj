@@ -64,7 +64,7 @@ const Derivatives = () => {
           <p className="mt-2 text-4xl font-medium">Chain Rule</p>
           <div className="md:flex">
             <Image src={chain_rule} width="700"></Image>
-            <Image src={chain_rule_ex} width="700"></Image>
+            <iframe className="rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/UlI6oyn_8lw?si=Wl2jW51faPEZ9bhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="mt-4 px-5"><Image src={chain_ex_func} width="600"></Image></div>
         </div>
@@ -76,7 +76,7 @@ const Derivatives = () => {
         <p className="mt-5 md:mt-20 text-4xl font-medium">Product Rule</p>
         <div className="md:flex">
             <Image src={product_rule} width="700"></Image>
-            <Image src={product_rule_ex} width="700"></Image>
+            <iframe className="rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/AtZxrZ620kM?si=nXZtv8kNg0i2RMOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <p className="mt-5 md:mt-20 text-4xl font-medium">Quotient Rule</p>
@@ -86,7 +86,7 @@ const Derivatives = () => {
         </div>
 
         <div>
-          
+
         </div>
 
       </div>
