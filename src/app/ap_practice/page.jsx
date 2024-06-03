@@ -9,13 +9,16 @@ import 'react-toastify/dist/ReactToastify.css';
 import question1 from '../../../public/ApPracQuestions/question1.webp';
 import question2 from '../../../public/ApPracQuestions/question2.webp';
 import question3 from '../../../public/ApPracQuestions/question3.webp';
+import question4 from '../../../public/ApPracQuestions/question4.webp';
+
+
 
 const success = "../ApPracQuestions/success.mp4";
 
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
-const questions = [question1, question2, question3];
-const answers = ['b', 'e', 'a']; // Answer key
+const questions = [question1, question2, question3, question4];
+const answers = ['b', 'e', 'a', 'a']; // Answer key
 
 function getRandomNumberInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -64,7 +67,7 @@ const Ap_practice = () => {
       <Header />
       <div className="text-center center">
         {allQuestionsAnswered ? (
-          <div className="md:mt-20">
+          <div className="flex md:mt-20">
             <ReactPlayer className="" url={success} playing={true} controls={false} />
           </div>
         ) : (
@@ -88,7 +91,7 @@ const Ap_practice = () => {
                 <button className="p-2 mt-3 text-sm text-white duration-300 md:hover:-translate-y-0.5 md:hover:bg-cyan-700 rounded-2xl bg-slate-800" onClick={handleAnswerSubmit}>Submit Answer</button>
               </div>
             </div>
-            <ToastContainer theme="colored" autoClose={1000}/>
+            <ToastContainer theme="colored" autoClose={1500}/>
           </>
         )}
       </div>
