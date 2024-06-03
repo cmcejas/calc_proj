@@ -13,7 +13,7 @@ import question3 from '../../../public/ApPracQuestions/question3.webp';
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
 const questions = [question1, question2, question3];
-const answers = ['b', 'd', 'a']; // Answer key
+const answers = ['b', 'e', 'a']; // Answer key
 
 function getRandomNumberInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
