@@ -10,6 +10,11 @@ import question1 from '../../../public/ApPracQuestions/question1.webp';
 import question2 from '../../../public/ApPracQuestions/question2.webp';
 import question3 from '../../../public/ApPracQuestions/question3.webp';
 import question4 from '../../../public/ApPracQuestions/question4.webp';
+import question5 from '../../../public/ApPracQuestions/question5.webp';
+import question6 from '../../../public/ApPracQuestions/question6.webp';
+import question7 from '../../../public/ApPracQuestions/question7.webp';
+import question8 from '../../../public/ApPracQuestions/question8.webp';
+import question9 from '../../../public/ApPracQuestions/question9.webp';
 
 
 
@@ -17,8 +22,8 @@ const success = "../ApPracQuestions/success.mp4";
 
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
-const questions = [question1, question2, question3, question4];
-const answers = ['b', 'e', 'a', 'a']; // Answer key
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9];
+const answers = ['b', 'e', 'a', 'a', 'd', 'a', 'c', 'a', 'a']; // Answer key
 
 function getRandomNumberInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -58,7 +63,7 @@ const Ap_practice = () => {
       setSelectedOption('');
       loadNextQuestion();
     } else {
-      toast.error('Sorry, that is incorrect. Try again.');
+      toast.error('That answer is incorrect. Try again.');
     }
   };
 
