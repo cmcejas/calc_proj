@@ -26,9 +26,9 @@ const Integrals = () => {
 
       <div className="flex justify-center">
         <div className="p-4 px-2 md:gap-20 md:flex md:px-20">
-          <Image src={yxGraph} alt="y=x" layout="fixed" className="duration-300 shadow-lg hover:transform hover:-translate-y-1 h-50 w-60 rounded-xl" />
-          <Image className="duration-300 shadow-lg hover:transform hover:-translate-y-1 h-50 w-60 rounded-xl" src={integral2} />
-          <Image className="duration-300 shadow-lg hover:transform hover:-translate-y-1 h-50 w-60 rounded-xl" src={integral} />
+          <Image src={yxGraph} alt="y=x" layout="fixed" className="mt-5 md:mt-0 duration-300 shadow-lg hover:transform md:hover:-translate-y-1 h-50 w-60 rounded-xl" />
+          <Image className="mt-5 md:mt-0 duration-300 shadow-lg md:hover:transform hover:-translate-y-1 h-50 w-60 rounded-xl" src={integral2} />
+          <Image className="mt-5 md:mt-0 duration-300 shadow-lg md:hover:transform hover:-translate-y-1 h-50 w-60 rounded-xl" src={integral} />
         </div>
       </div>
       <div className="p-4 px-2 md:px-20">
