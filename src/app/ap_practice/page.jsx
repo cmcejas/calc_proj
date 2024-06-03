@@ -21,7 +21,7 @@ function getRandomNumberInRange(min, max) {
 
 const Ap_practice = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [answer, setAnswer] = useState('');
+  const [selectedOption, setSelectedOption] = useState('');
   const [correctAnswer, setCorrectAnswer] = useState('');
   const [unansweredQuestions, setUnansweredQuestions] = useState([...questions.keys()]);
 
@@ -46,9 +46,9 @@ const Ap_practice = () => {
   };
 
   const handleAnswerSubmit = () => {
-    if (answer.toLowerCase() === correctAnswer) {
+    if (selectedOption === correctAnswer) {
       toast.success('Congratulations! Your answer is correct.');
-      setAnswer('');
+      setSelectedOption('');
       loadNextQuestion();
     } else {
       toast.error('Sorry, that is incorrect. Try again.');
@@ -58,18 +58,27 @@ const Ap_practice = () => {
   return (
     <div>
       <Header />
-      <div>
+      <div className="text-center center">
         {selectedImage && <img src={selectedImage.src} alt="Random Question" />}
         <div>
-          <input
-            type="text"
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
-            placeholder="Enter your answer"
-          />
-          <button onClick={handleAnswerSubmit}>Submit Answer</button>
+          <div>
+            {['a', 'b', 'c', 'd', 'e'].map(option => (
+              <label key={option} style={{ marginRight: '10px' }}>
+                <input
+                  type="radio"
+                  value={option}
+                  checked={selectedOption === option}
+                  onChange={(e) => setSelectedOption(e.target.value)}
+                />
+                {option.toUpperCase()}
+              </label>
+            ))}
+          </div>
+          <div>
+            <button className="p-2 mt-3 text-sm text-white duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 rounded-2xl bg-slate-800" onClick={handleAnswerSubmit}>Submit Answer</button>
+          </div>
         </div>
-        <ToastContainer />
+        <ToastContainer theme="colored" autoClose={1000}/>
       </div>
     </div>
   );
