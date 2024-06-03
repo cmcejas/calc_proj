@@ -75,7 +75,7 @@ const Ap_practice = () => {
             ))}
           </div>
           <div>
-            <button className="p-2 mt-3 text-sm text-white duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 rounded-2xl bg-slate-800" onClick={handleAnswerSubmit}>Submit Answer</button>
+            <button className="p-2 mt-3 text-sm text-white duration-300 md:hover:-translate-y-0.5 md:hover:bg-cyan-700 rounded-2xl bg-slate-800" onClick={handleAnswerSubmit}>Submit Answer</button>
           </div>
         </div>
         <ToastContainer theme="colored" autoClose={1000}/>
