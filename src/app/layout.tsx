@@ -14,7 +14,7 @@ export const metadata = {
   title: "Ultimate Calc Review",
   description: "by Carlos and Joey",
   openGraph: {
-    images: 'meta.png',
+    images: 'https://calc-proj.vercel.app/meta.png',
   },
 };
 
