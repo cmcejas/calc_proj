@@ -64,7 +64,11 @@ const Derivatives = () => {
           <p className="mt-2 text-4xl font-medium">Chain Rule</p>
           <div className="md:flex">
             <Image src={chain_rule} width="700"></Image>
-            <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/UlI6oyn_8lw?si=Wl2jW51faPEZ9bhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className="p-2 video-wrapper lg:px-10">
+              <div className="video-responsive">
+                <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/UlI6oyn_8lw?si=Wl2jW51faPEZ9bhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
           <div className="px-5 mt-4"><Image src={chain_ex_func} width="600"></Image></div>
         </div>
@@ -76,14 +80,22 @@ const Derivatives = () => {
         <p className="mt-5 text-4xl font-medium md:mt-20">Product Rule</p>
         <div className="md:flex">
             <Image src={product_rule} width="700"></Image>
-            <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/AtZxrZ620kM?si=nXZtv8kNg0i2RMOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className="p-2 video-wrapper lg:px-10">
+              <div className="video-responsive">
+                <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/AtZxrZ620kM?si=nXZtv8kNg0i2RMOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
         </div>
 
         <p className="mt-5 text-4xl font-medium md:mt-20">Quotient Rule</p>
         <div className="md:flex">
             <Image src={quotient_rule} width="700"></Image>
-            <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/wNvPNTTMhMk?si=7ydhJ77vP0EjuDoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+            <div className="p-2 video-wrapper lg:px-10">
+              <div className="video-responsive">
+                <iframe className="shadow-2xl rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/wNvPNTTMhMk?si=7ydhJ77vP0EjuDoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+       </div>
 
         <div>
 
