@@ -73,7 +73,7 @@ const Ap_practice = () => {
       <div className="text-center center">
         {allQuestionsAnswered ? (
           <div className="flex md:mt-20">
-            <ReactPlayer className="" url={success} playing={true} controls={false} />
+            <ReactPlayer className="" url={success} playing={true} controls={false} playsinline/>
           </div>
         ) : (
           <>
