@@ -15,15 +15,24 @@ import question6 from '../../../public/ApPracQuestions/question6.webp';
 import question7 from '../../../public/ApPracQuestions/question7.webp';
 import question8 from '../../../public/ApPracQuestions/question8.webp';
 import question9 from '../../../public/ApPracQuestions/question9.webp';
-
-
+import question10 from '../../../public/ApPracQuestions/question10.webp';
+import question11 from '../../../public/ApPracQuestions/question11.webp';
+import question12 from '../../../public/ApPracQuestions/question12.webp';
+import question13 from '../../../public/ApPracQuestions/question13.webp';
+import question14 from '../../../public/ApPracQuestions/question14.webp';
+import question15 from '../../../public/ApPracQuestions/question15.webp';
+import question16 from '../../../public/ApPracQuestions/question16.webp';
+import question17 from '../../../public/ApPracQuestions/question17.webp';
+import question18 from '../../../public/ApPracQuestions/question18.webp';
+import question19 from '../../../public/ApPracQuestions/question19.webp';
+import question20 from '../../../public/ApPracQuestions/question20.webp';
 
 const success = "../ApPracQuestions/success.mp4";
 
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
-const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9];
-const answers = ['b', 'e', 'a', 'a', 'd', 'a', 'c', 'a', 'a']; // Answer key
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20];
+const answers = ['b', 'e', 'a', 'a', 'd', 'a', 'c', 'a', 'a', 'd', 'b', 'c', 'd', 'c', 'a', 'c', 'b', 'b', 'c', 'd']; // Answer key
 
 function getRandomNumberInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
